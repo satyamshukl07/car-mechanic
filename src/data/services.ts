@@ -1,4 +1,6 @@
 import { Service, HeroSlide, Brand } from '../types';
+import brakeClutchImage from '../assets/brake-clutch.jpg';
+
 
 export const SERVICES: Service[] = [
   {
@@ -518,7 +520,7 @@ export const HERO_SLIDES: HeroSlide[] = [
     ctaLink: '/services/brakes-and-clutch',
     secondaryCtaText: 'Book Service',
     secondaryCtaLink: '/book?service=brakes-and-clutch',
-    image: 'https://unsplash.com/photos/gray-mercedes-benz-coupe-on-black-asphalt-road-during-daytime-_4sWbzH5fp8',
+     image: brakeClutchImage,
     badge: 'Precision Safety'
   },
   {
