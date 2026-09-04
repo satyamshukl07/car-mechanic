@@ -1,7 +1,5 @@
 import { Service, HeroSlide, Brand } from '../types';
-import brakeClutchImage from '../assets/brake-clutch.jpg';
-
-
+import brakeClutchImg from '../assets/brake-clutch.jpg';
 export const SERVICES: Service[] = [
   {
     id: 'mechanical-repairs',
@@ -520,7 +518,7 @@ export const HERO_SLIDES: HeroSlide[] = [
     ctaLink: '/services/brakes-and-clutch',
     secondaryCtaText: 'Book Service',
     secondaryCtaLink: '/book?service=brakes-and-clutch',
-     image: brakeClutchImage,
+    image: brakeClutchImg,
     badge: 'Precision Safety'
   },
   {
