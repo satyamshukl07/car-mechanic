@@ -518,7 +518,7 @@ export const HERO_SLIDES: HeroSlide[] = [
     ctaLink: '/services/brakes-and-clutch',
     secondaryCtaText: 'Book Service',
     secondaryCtaLink: '/book?service=brakes-and-clutch',
-    image: 'https://images.unsplash.com/photo-1600790142055-619df03207e6?auto=format&fit=crop&w=1920&q=85',
+    image: 'https://unsplash.com/photos/gray-mercedes-benz-coupe-on-black-asphalt-road-during-daytime-_4sWbzH5fp8',
     badge: 'Precision Safety'
   },
   {
