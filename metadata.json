@@ -1,0 +1,6 @@
+{
+  "name": "Apex Auto Care - Car Servicing & Mechanical Repairs",
+  "description": "Professional Australian car servicing, logbook servicing, brakes, suspension, tyres, and 24/7 breakdown assistance with certified mechanics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
