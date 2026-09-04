@@ -506,7 +506,43 @@ export const SERVICES: Service[] = [
     estimatedTime: '30 Mins - 2 Hours',
     startingPrice: '$95',
     popular: false
-  }
+  },
+  {
+    id: 'ceramic-coating',                        // Unique ID
+    slug: 'ceramic-coating',                      // URL slug (e.g. /services/ceramic-coating)
+    title: 'Ceramic Coating & Paint Protection',  // Service ka naam
+    shortDescription: 'Professional multi-year ceramic coating and paint correction for ultimate showroom shine.',
+    longDescription: 'Our certified detailing specialists apply 9H diamond hardness nano-ceramic coating to protect your vehicle against UV fading, stone chips, bird droppings, and swirl marks.',
+    iconName: 'Shield',                           // Lucide icon ka naam
+    image: 'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1000&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1600&q=80',
+    commonProblems: [
+      'Paint clear coat fading or oxidation from sunlight',
+      'Water spots and stubborn acid marks on bonnet',
+      'Swirl scratches visible under street lights'
+    ],
+    included: [
+      'Multi-stage decontamination wash and clay bar treatment',
+      'Two-stage machine paint correction to eliminate 90% swirls',
+      '5-year warranty 9H ceramic coating layer application',
+      'Hydrophobic glass and alloy wheel protection treatment'
+    ],
+    benefits: [
+      'High-gloss mirror finish that lasts up to 5 years',
+      'Repels water, dust, and road grime effortlessly',
+      'Protects resale value of your vehicle'
+    ],
+    whyChooseUs: [
+      'Temperature and humidity controlled detailing bay',
+      'Accredited installers with official warranty certificate',
+      'Complimentary annual inspection and top-up wash'
+    ],
+    estimatedTime: '1 - 2 Days',
+    startingPrice: '$599',
+    popular: true
+  },
+ 
+
 ];
 
 export const HERO_SLIDES: HeroSlide[] = [
